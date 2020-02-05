@@ -8,7 +8,7 @@
 # Finding shortest paths through MIT buildings
 #
 import unittest
-from Graphs.ProblemSet2.graph import Digraph, Node, WeightedEdge
+from Graphs.MITProblemSet2.graph import Digraph, Node, WeightedEdge
 
 
 #
@@ -62,11 +62,6 @@ def load_map(map_filename):
 
     return graph
 
-
-# Problem 2c: Testing load_map
-# Include the lines used to test load_map below, but comment them out
-g = load_map('test_load_map.txt')
-print(str(g))
 
 #
 # Problem 3: Finding the Shorest Path using Optimized Search Method
